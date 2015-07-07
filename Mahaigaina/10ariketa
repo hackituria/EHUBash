@@ -1,9 +1,0 @@
-#!/bin/sh
-
-
-ext=$( echo $2 | awk -F . '{print $NF}')
-
-find $1 -name "*.$ext" 
-
-
-
